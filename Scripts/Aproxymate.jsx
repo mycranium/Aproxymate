@@ -1,5 +1,6 @@
 {
     app.beginUndoGroup("Replace Source with Proxy"); // Create an undo groupvar myCollection = app.project.items;
+    var myCollection = app.project.items;
     if (myCollection.length > 0) {
         //        alert(myCollection[6].mainSource.removePulldown.);
         for (i = 1; i <= myCollection.length; i++) {
